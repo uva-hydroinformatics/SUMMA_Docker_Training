@@ -18,7 +18,7 @@ The command will step through the Dockerfile and output the results of each line
 3. When the build completes. Using the `docker images` command will list all the images. 
 **(optional)** The created Docker image will have no name associated with it. Use `docker tag containerID yourContainerName` to rename it.
 4. Run the image with:
-`docker run -it -p=8888:8888 -v=/var/run/docker.sock:/var/run/docker.sock -v=/usr/bin/docker:/usr/bin/docker [containerNameOrID]`
+`docker run -it -p=8888:8888 [containerNameOrID]`
 This will create a container which is based off the image. It will create a bash terminal inside the container. Exit the container using the command: `exit`
     - the -it flag creates a terminal instance inside of the container.
     - the -p flag publishes the container's port 8888 to the host's port 8888. **If something is already running on port 8888 localhost, then the number needs to be changed.** 
