@@ -27,18 +27,18 @@ This will create a container which is based off the image. It will create a bash
 5. After entering the terminal, a jupyter notebook server can be launched  with the following command:
 `jupyter notebook --ip=0.0.0.0 --allow-root`
 
-### Running a pre-existing Docker image
+## Running a pre-existing Docker image
 1. An image can be found [here](https://hub.docker.com/r/blarghnog/pysumma) on DockerHub. Pull the image to your machine using:
 `docker pull blarghnog/pysumma`
-2. After the image finished downloading, follow step 4 and on from the instructions above.
+2. After the image finishs downloading, follow step 4 and on from the instructions above.
 
-### Adding files to the image or container
+## Adding files to the image or container
 In the event you already have a notebook or other files you want to include.
 - **If creating a Docker image**
     - Just add the desired files to the directory with the Dockerfile before running `docker build .`
 - **If running a pre-existing image**
     - Run `docker cp path/to/file  containerID:path/to/file` after running the image 
 
-### Helpful commands
+## Helpful commands
 - List all running containers with `docker ps -a`. 
 - Delete running containers with `docker container rm ContainerID`
