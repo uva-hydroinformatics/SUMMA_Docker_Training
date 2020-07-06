@@ -7,8 +7,8 @@ This repo contains instructions for creating a Docker image or running a pre-exi
 2. Git clone or copy the files in this repository into a folder.
 
 ## Configuration files
-`Dockerfile` - A text file used by Docker that lists all the commands used to build an image. This includes commands such as those that install packages and add local files to the image. More info [here](https://docs.docker.com/engine/reference/builder/).
-`environment.yml` - A text file used by Conda that lists all of packages to be installed and creates a virtual environment. It specifies the environment name and the channels to install the packages from. More info [here](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
+- `Dockerfile` - A text file used by Docker that lists all the commands used to build an image. This includes commands such as those that install packages and add local files to the image. More info [here](https://docs.docker.com/engine/reference/builder/).
+- `environment.yml` - A text file used by Conda that lists all of packages to be installed and creates a virtual environment. It specifies the environment name and the channels to install the packages from. More info [here](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
 
 ## Creating the Docker image
 1. In the terminal, change directories into the folder containing the files.
