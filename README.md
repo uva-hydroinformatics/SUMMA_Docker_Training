@@ -28,8 +28,8 @@ This will create a container which is based off the image. It will create a bash
 `jupyter notebook --ip=0.0.0.0 --allow-root`
 
 ## Running a pre-existing Docker image
-1. An image can be found [here](https://hub.docker.com/r/blarghnog/pysumma) on DockerHub. Pull the image to your machine using:
-`docker pull blarghnog/pysumma`
+1. An image can be found [here](https://hub.docker.com/repository/docker/davidchoi76/summa3) on DockerHub. Pull the image to your machine using:
+`docker pull davidchoi76/summa3:tagname`
 2. After the image finishs downloading, follow step 4 and on from the instructions above.
 
 ## Adding files to the image or container
