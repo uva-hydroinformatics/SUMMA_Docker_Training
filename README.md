@@ -42,3 +42,5 @@ In the event you already have a notebook or other files you want to include.
 ## Helpful commands
 - List all running containers with `docker ps -a`. 
 - Delete running containers with `docker container rm ContainerID`
+- List all Docker images with 'docker images'
+- Delete a Docker image with 'docker image rm image_id'
